@@ -30,7 +30,7 @@ The code review evaluates the original PowerScale application, a mobile weight t
 
 ### Key Areas Reviewed:
 - Application structure and maintainability
-- Separation of concerns and architectural design
+- Separation of concerns/duties and architectural design
 - Input validation and defensive programming
 - Database interaction and data integrity
 - Code readability and documentation

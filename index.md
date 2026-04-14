@@ -9,7 +9,7 @@ title: Manny DaSilva | Computer Science ePortfolio
 
 # About Me
 
-Hi, my name is Manny DaSilva, and welcome to my official GitHub Pages website for my Computer Science Capstone ePortfolio for CS 499 at Southern New Hampshire University. I am currently a Security+ certified software engineer at Arcfield, working remotely from Bristol, Rhode Island. My background includes experience with Java, Python, C++, Rust, TypeScript/JavaScript, React, Redux, PostgreSQL, SQL, Spring, RESTful services, and GraphQL. I also have a strong foundation in Agile methodologies and DevOps.
+Hi, my name is Manny DaSilva, and welcome to my official GitHub Pages website for my Computer Science Capstone ePortfolio for CS 499 at Southern New Hampshire University. I am currently a Security+ certified software engineer at Arcfield, working remotely from Bristol, Rhode Island. My background includes experience with Java, Python, C++, Rust, TypeScript/JavaScript, React, Redux, PostgreSQL, SQL, Spring, RESTful services, and GraphQL. I also have a strong foundation in Agile/Waterfall methodologies and DevOps.
 
 My education includes an Associate of Science in Computer Programming from the Community College of Rhode Island, where I earned a 3.97 GPA, and a Bachelor of Science in Computer Science from Southern New Hampshire University, where I earned a 4.0 GPA. I also completed a one-year internship at Arcfield before transitioning into full-time employment. In addition, I am currently pursuing a Master of Science in Computer Science with a concentration in Artificial Intelligence at Southern New Hampshire University.
 
