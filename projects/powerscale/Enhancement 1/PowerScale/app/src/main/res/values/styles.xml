@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Base text: Inter -->
+    <style name="TextAppearance.PowerScale" parent="TextAppearance.MaterialComponents.Body1">
+        <item name="android:fontFamily">@font/inter</item>
+        <item name="fontFamily">@font/inter</item>
+        <item name="android:textColor">@color/powerscale_on_surface</item>
+    </style>
+
+    <!-- Header text: Rock Salt -->
+    <style name="TextAppearance.PowerScale.Header" parent="TextAppearance.MaterialComponents.Headline5">
+        <item name="android:fontFamily">@font/rock_salt</item>
+        <item name="fontFamily">@font/rock_salt</item>
+        <item name="android:textColor">@color/powerscale_primary</item>
+    </style>
+
+</resources>

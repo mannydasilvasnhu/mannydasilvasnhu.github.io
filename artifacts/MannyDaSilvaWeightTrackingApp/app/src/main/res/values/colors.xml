@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <!-- PowerScale Theme (Indigo) -->
+    <color name="powerscale_primary">#2C2F8F</color>
+    <color name="powerscale_primary_dark">#1A1C5A</color>
+    <color name="powerscale_secondary">#7B1FA2</color>
+    <color name="powerscale_accent">#FFB300</color>
+
+    <!-- Surfaces -->
+    <color name="powerscale_background">#FFFFFF</color>
+    <color name="powerscale_surface">#FFFFFF</color>
+
+    <!-- Text -->
+    <color name="powerscale_on_surface">#1C1C1C</color>
+    <color name="powerscale_on_surface_secondary">#4D4D4D</color>
+    <color name="powerscale_hint">#424242</color>
+
+    <!-- Outline -->
+    <color name="powerscale_outline">#9E9E9E</color>
+
+    <!-- Utility -->
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+
+    <!-- Danger -->
+    <color name="powerscale_danger">#D32F2F</color>
+
+</resources>

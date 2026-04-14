@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/profileRoot"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="24dp"
+    android:background="@color/powerscale_background">
+
+    <!--
+        Screen Title
+        Displays the title of the Profile screen.
+    -->
+    <TextView
+        android:id="@+id/textProfileTitle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/profile_title"
+        android:textStyle="bold"
+        android:textAppearance="@style/TextAppearance.PowerScale.Header"
+        android:textColor="@color/powerscale_primary"
+        android:gravity="center"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <!--
+        Profile Card
+        Groups profile information for visual hierarchy purposes.
+    -->
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/cardProfile"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        app:cardUseCompatPadding="true"
+        app:cardBackgroundColor="@color/powerscale_surface"
+        app:strokeColor="@color/powerscale_outline"
+        app:strokeWidth="1dp"
+        app:layout_constraintTop_toBottomOf="@id/textProfileTitle"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp">
+
+            <!--
+                Username Label and Value
+            -->
+            <TextView
+                android:id="@+id/textLabelUsername"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/profile_label_username"
+                android:textStyle="bold"
+                android:textAppearance="@style/TextAppearance.PowerScale"
+                android:textColor="@color/powerscale_on_surface"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintStart_toStartOf="parent" />
+
+            <TextView
+                android:id="@+id/textProfileUsername"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="@string/profile_value_username"
+                android:textAppearance="@style/TextAppearance.PowerScale"
+                android:textColor="@color/powerscale_on_surface"
+                android:layout_marginStart="8dp"
+                app:layout_constraintStart_toEndOf="@id/textLabelUsername"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="@id/textLabelUsername" />
+
+            <!--
+                Goal Label and Value
+            -->
+            <TextView
+                android:id="@+id/textLabelGoal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/profile_label_goal"
+                android:textStyle="bold"
+                android:textAppearance="@style/TextAppearance.PowerScale"
+                android:textColor="@color/powerscale_on_surface"
+                android:layout_marginTop="12dp"
+                app:layout_constraintTop_toBottomOf="@id/textLabelUsername"
+                app:layout_constraintStart_toStartOf="parent" />
+
+            <TextView
+                android:id="@+id/textProfileGoal"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="@string/profile_value_goal"
+                android:textAppearance="@style/TextAppearance.PowerScale"
+                android:textColor="@color/powerscale_on_surface"
+                android:layout_marginStart="8dp"
+                app:layout_constraintStart_toEndOf="@id/textLabelGoal"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="@id/textLabelGoal" />
+
+            <!--
+                Latest Weight Label and Value
+            -->
+            <TextView
+                android:id="@+id/textLabelLatest"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/profile_label_latest_weight"
+                android:textStyle="bold"
+                android:textAppearance="@style/TextAppearance.PowerScale"
+                android:textColor="@color/powerscale_on_surface"
+                android:layout_marginTop="12dp"
+                app:layout_constraintTop_toBottomOf="@id/textLabelGoal"
+                app:layout_constraintStart_toStartOf="parent" />
+
+            <TextView
+                android:id="@+id/textProfileLatestWeight"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="@string/profile_value_latest_weight"
+                android:textAppearance="@style/TextAppearance.PowerScale"
+                android:textColor="@color/powerscale_on_surface"
+                android:layout_marginStart="8dp"
+                app:layout_constraintStart_toEndOf="@id/textLabelLatest"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="@id/textLabelLatest" />
+
+            <!--
+                Last Logged Label and Value
+            -->
+            <TextView
+                android:id="@+id/textLabelLastLogged"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/profile_label_last_logged"
+                android:textStyle="bold"
+                android:textAppearance="@style/TextAppearance.PowerScale"
+                android:textColor="@color/powerscale_on_surface"
+                android:layout_marginTop="12dp"
+                app:layout_constraintTop_toBottomOf="@id/textLabelLatest"
+                app:layout_constraintStart_toStartOf="parent" />
+
+            <TextView
+                android:id="@+id/textProfileLastLogged"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="@string/profile_value_last_logged"
+                android:textAppearance="@style/TextAppearance.PowerScale"
+                android:textColor="@color/powerscale_on_surface"
+                android:layout_marginStart="8dp"
+                app:layout_constraintStart_toEndOf="@id/textLabelLastLogged"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="@id/textLabelLastLogged" />
+
+            <!--
+                SMS Status Label and Value
+            -->
+            <TextView
+                android:id="@+id/textLabelSms"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/profile_label_sms"
+                android:textStyle="bold"
+                android:textAppearance="@style/TextAppearance.PowerScale"
+                android:textColor="@color/powerscale_on_surface"
+                android:layout_marginTop="12dp"
+                app:layout_constraintTop_toBottomOf="@id/textLabelLastLogged"
+                app:layout_constraintStart_toStartOf="parent" />
+
+            <TextView
+                android:id="@+id/textProfileSmsStatus"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="@string/profile_value_sms"
+                android:textAppearance="@style/TextAppearance.PowerScale"
+                android:textColor="@color/powerscale_on_surface"
+                android:layout_marginStart="8dp"
+                app:layout_constraintStart_toEndOf="@id/textLabelSms"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="@id/textLabelSms" />
+
+            <!--
+                Alert Number Label and Value
+            -->
+            <TextView
+                android:id="@+id/textLabelAlert"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/profile_label_alert_number"
+                android:textStyle="bold"
+                android:textAppearance="@style/TextAppearance.PowerScale"
+                android:textColor="@color/powerscale_on_surface"
+                android:layout_marginTop="12dp"
+                app:layout_constraintTop_toBottomOf="@id/textLabelSms"
+                app:layout_constraintStart_toStartOf="parent" />
+
+            <TextView
+                android:id="@+id/textProfileAlertNumber"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="@string/profile_value_alert_number"
+                android:textAppearance="@style/TextAppearance.PowerScale"
+                android:textColor="@color/powerscale_on_surface"
+                android:layout_marginStart="8dp"
+                app:layout_constraintStart_toEndOf="@id/textLabelAlert"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="@id/textLabelAlert" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </com.google.android.material.card.MaterialCardView>
+
+    <!--
+        Decorative Image
+        Displays an anime-inspired image which relates to
+        the PowerScale theme and visual style.
+    -->
+    <ImageView
+        android:id="@+id/imagePowerUp"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="24dp"
+        android:src="@drawable/power_up"
+        android:adjustViewBounds="true"
+        android:scaleType="centerInside"
+        android:contentDescription="@null"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintWidth_max="200dp"
+        app:layout_constraintVertical_bias="1.0" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

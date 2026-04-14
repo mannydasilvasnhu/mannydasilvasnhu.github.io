@@ -1,0 +1,106 @@
+<resources>
+
+    <!-- App -->
+    <string name="app_name">PowerScale</string>
+    <string name="app_slogan">One scale. Infinite potential.</string>
+
+    <!-- Login -->
+    <string name="username_hint">Username</string>
+    <string name="password_hint">Password</string>
+    <string name="button_login">Log In</string>
+    <string name="button_create_account">Create New Account</string>
+    <string name="login_hint">Your login is used to record and save your weight data.</string>
+    <string name="login_failed">Login failed. Check your username/password.</string>
+    <string name="username_exists">That username already exists. Try logging in.</string>
+    <string name="account_creation_successful">Account creation successful</string>
+    <string name="account_creation_unsuccessful">Could not create account. Try a different username.</string>
+    <string name="login_again">Please log in again.</string>
+
+    <!-- Home -->
+    <string name="home_subtitle">Choose your path.</string>
+    <string name="button_weight_log">View Power Level Log</string>
+    <string name="button_goal_weight">Goal Power Level</string>
+    <string name="button_profile">Persona</string>
+    <string name="button_sms_settings">SMS Notifications</string>
+    <string name="logout">Log Out</string>
+
+    <!-- Weight Log -->
+    <string name="power_log_title">Power Level Log</string>
+    <string name="add_power_stat">Add Power Level</string>
+    <string name="edit_date_hint">Date (MM/DD/YYYY)</string>
+    <string name="edit_weight_hint">Weight (lbs)</string>
+    <string name="add_to_log">Add to Power Level Log</string>
+    <string name="update_entry">Update Entry</string>
+    <string name="editing_entry_toast">Editing entry. Tap Update Entry to save.</string>
+    <string name="power_log_footer">Levels will load here after logging.</string>
+    <string name="date_log_item_header">Date</string>
+    <string name="weight_log_item_header">Weight</string>
+    <string name="action_log_item_header">Action</string>
+    <string name="button_delete">Delete</string>
+    <string name="could_not_delete">Could not delete entry.</string>
+    <string name="could_not_add">Could not add entry.</string>
+    <string name="could_not_update">Could not update entry.</string>
+
+    <!-- Goal Weight -->
+    <string name="goal_title">Goal Power Level</string>
+    <string name="goal_hint">Goal weight (lbs)</string>
+    <string name="save_goal">Save Goal Power Level</string>
+    <string name="current_goal_none">Current Goal Power Level: Not set</string>
+    <string name="goal_required">Goal power level is required</string>
+    <string name="goal_must_be_number">Goal power level must be a number</string>
+    <string name="goal_must_be_positive">Goal power level must be greater than 0</string>
+    <string name="goal_saved">Goal power level saved!</string>
+    <string name="goal_save_failed">Could not save goal power level</string>
+    <string name="goal_login_again">Please log in again.</string>
+
+    <!-- SMS Settings -->
+    <string name="sms_title">SMS Notifications</string>
+    <string name="sms_info">PowerScale can send you a text when you reach your goal power level.\nYou can turn this on or keep using the app without it.</string>
+    <string name="sms_status_label">Status:</string>
+    <string name="sms_status_disabled">Disabled</string>
+    <string name="sms_status_enabled">Enabled</string>
+    <string name="sms_status_disabled_permission">Disabled (permission needed)</string>
+    <string name="sms_status_disabled_no_phone">Disabled (add phone number)</string>
+    <string name="sms_toggle_label">SMS Notifications</string>
+    <string name="sms_toggle_accessibility">Toggle SMS notifications on or off</string>
+    <string name="phone_hint">Phone number for alerts</string>
+    <string name="save_phone">Save Phone Number</string>
+    <string name="button_send_test_sms">Send Test SMS</string>
+    <string name="phone_saved">Phone number saved</string>
+    <string name="phone_required">Enter a phone number first</string>
+    <string name="sms_enabled_toast">SMS notifications enabled</string>
+    <string name="sms_disabled_toast">SMS notifications disabled</string>
+    <string name="sms_enable_first">Enable SMS notifications first.</string>
+    <string name="sms_permission_required_toggle">SMS permission required. Toggle SMS on to request it.</string>
+    <string name="sms_permission_granted">SMS permission granted.</string>
+    <string name="sms_permission_denied">SMS permission denied. Notifications will be disabled.</string>
+    <string name="sms_test_sent">Test SMS sent.</string>
+    <string name="sms_test_failed">Failed to send SMS. Check emulator/device SMS support.</string>
+
+    <!-- Profile -->
+    <string name="profile_title">Persona</string>
+
+    <string name="profile_label_username">Username:</string>
+    <string name="profile_label_goal">Goal Power Level:</string>
+    <string name="profile_label_latest_weight">Latest Power Level:</string>
+    <string name="profile_label_last_logged">Last Logged:</string>
+    <string name="profile_label_sms">SMS Notifications:</string>
+    <string name="profile_label_alert_number">Alert Number:</string>
+
+    <!-- These are just placeholders shown in the preview before real data loads -->
+    <string name="profile_value_username">(username)</string>
+    <string name="profile_value_goal">(goal)</string>
+    <string name="profile_value_latest_weight">(latest)</string>
+    <string name="profile_value_last_logged">(date)</string>
+    <string name="profile_value_sms">(status)</string>
+    <string name="profile_value_alert_number">(number)</string>
+
+    <!-- Profile values used by ProfileActivity -->
+    <string name="profile_not_set">Not set</string>
+    <string name="profile_no_entries">No entries yet</string>
+    <string name="profile_sms_enabled">Enabled</string>
+    <string name="profile_sms_disabled">Disabled</string>
+    <string name="profile_alert_not_set">Not set</string>
+    <string name="profile_masked_number">***-***-%1$s</string>
+
+</resources>

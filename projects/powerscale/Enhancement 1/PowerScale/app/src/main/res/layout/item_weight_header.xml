@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/headerCard"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardUseCompatPadding="false"
+    app:cardElevation="0dp"
+    app:cardBackgroundColor="@color/powerscale_surface"
+    app:strokeColor="@color/powerscale_outline"
+    app:strokeWidth="1dp">
+
+    <!--
+        Header Row Container
+        Acts as the header for the weight log list,
+        displaying column labels for the data below.
+    -->
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/headerRow"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingVertical="10dp"
+        android:paddingHorizontal="12dp">
+
+        <!--
+            Date Column Header
+            Labels the column that displays the date
+            of each logged weight entry.
+        -->
+        <TextView
+            android:id="@+id/textHeaderDate"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/date_log_item_header"
+            android:textAppearance="@style/TextAppearance.PowerScale"
+            android:textStyle="bold"
+            android:gravity="start"
+            android:textColor="@color/powerscale_on_surface"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@id/textHeaderWeight"
+            app:layout_constraintWidth_percent="0.19" />
+
+        <!--
+            Weight Column Header
+            Labels the column that displays the user's
+            recorded weight values.
+        -->
+        <TextView
+            android:id="@+id/textHeaderWeight"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/weight_log_item_header"
+            android:textAppearance="@style/TextAppearance.PowerScale"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:textColor="@color/powerscale_on_surface"
+            app:layout_constraintStart_toEndOf="@id/textHeaderDate"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@id/textHeaderAction"
+            app:layout_constraintWidth_percent="0.25" />
+
+        <!--
+            Action Column Header
+            Labels the column that contains actions,
+            in this case deleting a log entry.
+        -->
+        <TextView
+            android:id="@+id/textHeaderAction"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/action_log_item_header"
+            android:textAppearance="@style/TextAppearance.PowerScale"
+            android:textStyle="bold"
+            android:gravity="end"
+            android:textColor="@color/powerscale_primary"
+            app:layout_constraintStart_toEndOf="@id/textHeaderWeight"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintWidth_percent="0.25" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</com.google.android.material.card.MaterialCardView>

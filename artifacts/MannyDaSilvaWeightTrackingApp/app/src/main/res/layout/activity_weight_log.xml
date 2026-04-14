@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/weightLogRoot"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@color/powerscale_background"
+    tools:context=".WeightLogActivity">
+
+    <!--
+        Screen Title
+        Displays the title of the Weight Log screen.
+    -->
+    <TextView
+        android:id="@+id/textTitle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/power_log_title"
+        android:textStyle="bold"
+        android:textAppearance="@style/TextAppearance.PowerScale.Header"
+        android:textSize="26sp"
+        android:gravity="center"
+        android:textColor="@color/powerscale_primary"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <!--
+        Add Entry Section
+        Allows the user to enter a new weight record
+        including date and weight value.
+    -->
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/cardAddEntry"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        app:cardUseCompatPadding="true"
+        app:cardBackgroundColor="@color/powerscale_surface"
+        app:strokeColor="@color/powerscale_outline"
+        app:strokeWidth="1dp"
+        app:layout_constraintTop_toBottomOf="@id/textTitle"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="12dp">
+
+            <!--
+                Add Entry Header
+                Identifies the section used for logging
+                a new power (weight) stat.
+            -->
+            <TextView
+                android:id="@+id/textAddEntry"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="@string/add_power_stat"
+                android:textAppearance="@style/TextAppearance.PowerScale"
+                android:textStyle="bold"
+                android:textSize="16sp"
+                android:textColor="@color/powerscale_on_surface"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent" />
+
+            <!--
+                Date Input Field
+                Allows the user to enter the date
+                associated with the weight entry.
+            -->
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/tilDate"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                app:hintTextColor="@color/powerscale_hint"
+                android:textColor="@color/powerscale_on_surface"
+                app:layout_constraintTop_toBottomOf="@id/textAddEntry"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintWidth_max="488dp"
+                >
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/editDate"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/edit_date_hint"
+                    android:minHeight="48dp"
+                    android:focusable="false"
+                    android:clickable="true"
+                    android:cursorVisible="false"
+                    android:textAppearance="@style/TextAppearance.PowerScale"
+                    android:textColor="@color/powerscale_on_surface"
+                    android:textColorHint="@color/powerscale_hint" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <!--
+                Weight Input Field
+                Allows the user to enter their weight value
+                for the selected date.
+            -->
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/tilWeight"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                app:hintTextColor="@color/powerscale_hint"
+                android:textColor="@color/powerscale_on_surface"
+                app:layout_constraintTop_toBottomOf="@id/tilDate"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintWidth_max="488dp">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/editWeight"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/edit_weight_hint"
+                    android:minHeight="48dp"
+                    android:inputType="numberDecimal"
+                    android:textAppearance="@style/TextAppearance.PowerScale"
+                    android:textColor="@color/powerscale_on_surface"
+                    android:textColorHint="@color/powerscale_hint" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <!--
+                Add to Log Button
+                Adds the entered date and weight
+                to the weight log.
+            -->
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/buttonAdd"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:text="@string/add_to_log"
+                android:textAppearance="@style/TextAppearance.PowerScale"
+                app:layout_constraintTop_toBottomOf="@id/tilWeight"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintWidth_max="320dp" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </com.google.android.material.card.MaterialCardView>
+
+    <!--
+        Header Row
+        Displays column labels for the weight log list,
+        such as date, weight, and actions.
+    -->
+    <include
+        android:id="@+id/headerRow"
+        layout="@layout/item_weight_header"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="14dp"
+        app:layout_constraintTop_toBottomOf="@id/cardAddEntry"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <!--
+        Weight Log List
+        Displays the list of logged weight entries
+        in a scrollable grid or list format.
+    -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerWeightLog"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="8dp"
+        tools:listitem="@layout/item_weight_row"
+        app:layout_constraintTop_toBottomOf="@id/headerRow"
+        app:layout_constraintBottom_toTopOf="@id/textFooter"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <!--
+        Footer Text
+        Provides feedback to the user when no
+        weight entries are currently displayed.
+    -->
+    <TextView
+        android:id="@+id/textFooter"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/power_log_footer"
+        android:textAppearance="@style/TextAppearance.PowerScale"
+        android:textSize="12sp"
+        android:textColor="@color/powerscale_on_surface_secondary"
+        android:gravity="center"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

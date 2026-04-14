@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/smsRoot"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="24dp"
+    android:background="@color/powerscale_background">
+
+    <!--
+        Screen Title
+        Displays the title of the SMS Notifications screen.
+    -->
+    <TextView
+        android:id="@+id/textSmsTitle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/sms_title"
+        android:textStyle="bold"
+        android:textAppearance="@style/TextAppearance.PowerScale.Header"
+        android:textColor="@color/powerscale_primary"
+        android:gravity="center"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <!--
+        Informational Text
+        Explains the purpose of SMS notifications and informs
+        the user that the app can still be used without enabling SMS.
+    -->
+    <TextView
+        android:id="@+id/textSmsInfo"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:text="@string/sms_info"
+        android:textAppearance="@style/TextAppearance.PowerScale"
+        android:textColor="@color/powerscale_on_surface"
+        android:gravity="center"
+        app:layout_constraintTop_toBottomOf="@id/textSmsTitle"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <!--
+        SMS Settings Card
+        Groups all SMS-related controls together for
+        visual hierarchy purposes.
+    -->
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/cardSms"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        app:cardBackgroundColor="@color/powerscale_surface"
+        app:strokeColor="@color/powerscale_outline"
+        app:strokeWidth="1dp"
+        app:layout_constraintTop_toBottomOf="@id/textSmsInfo"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp">
+
+            <!--
+                Status Label
+                Identifies the current SMS permission status.
+            -->
+            <TextView
+                android:id="@+id/textSmsStatusLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/sms_status_label"
+                android:textAppearance="@style/TextAppearance.PowerScale"
+                android:textStyle="bold"
+                android:textColor="@color/powerscale_on_surface"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <!--
+                Status Value
+                Displays whether SMS notifications are currently
+                enabled or disabled.
+            -->
+            <TextView
+                android:id="@+id/textSmsStatus"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="@string/sms_status_disabled"
+                android:textAppearance="@style/TextAppearance.PowerScale"
+                android:textColor="@color/powerscale_hint"
+                app:layout_constraintStart_toEndOf="@id/textSmsStatusLabel"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="@id/textSmsStatusLabel"
+                android:layout_marginStart="8dp" />
+
+            <!--
+                Enable SMS Button
+                Allows the user to request SMS permission
+                and enable SMS notifications for the app.
+            -->
+            <com.google.android.material.switchmaterial.SwitchMaterial
+                android:id="@+id/switchSmsEnabled"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="@string/sms_toggle_label"
+                android:contentDescription="@string/sms_toggle_accessibility"
+                android:textAppearance="@style/TextAppearance.PowerScale"
+                android:layout_marginTop="16dp"
+                app:layout_constraintTop_toBottomOf="@id/textSmsStatusLabel"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintWidth_max="320dp" />
+
+            <!--
+                Phone Number Input
+                Allows the user to enter the phone number
+                that will receive SMS notifications.
+            -->
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/layoutPhone"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                app:layout_constraintTop_toBottomOf="@id/switchSmsEnabled"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintWidth_max="488dp"
+                android:hint="@string/phone_hint">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/editPhone"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="phone"
+                    android:textAppearance="@style/TextAppearance.PowerScale"
+                    android:textColor="@color/powerscale_on_surface" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <!--
+                Save Phone Number Button
+                Saves the user's phone number for SMS notifications.
+            -->
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/buttonSavePhone"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:text="@string/save_phone"
+                android:textAllCaps="false"
+                android:textAppearance="@style/TextAppearance.PowerScale"
+                android:minHeight="48dp"
+                app:strokeColor="@color/powerscale_primary"
+                app:layout_constraintTop_toBottomOf="@id/layoutPhone"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintWidth_max="320dp" />
+
+            <!--
+                Send Test SMS Button
+                Sends a test SMS message to verify that
+                SMS notifications are working correctly.
+            -->
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/buttonSendTest"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:text="@string/button_send_test_sms"
+                android:textAllCaps="false"
+                android:textAppearance="@style/TextAppearance.PowerScale"
+                android:minHeight="48dp"
+                app:strokeColor="@color/powerscale_primary"
+                app:layout_constraintTop_toBottomOf="@id/buttonSavePhone"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintWidth_max="320dp" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </com.google.android.material.card.MaterialCardView>
+
+    <!--
+        Decorative Image
+        Displays an anime-inspired image which relates to
+        the PowerScale theme and visual style.
+    -->
+    <ImageView
+        android:id="@+id/imagePowerUp"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="4dp"
+        android:adjustViewBounds="true"
+        android:contentDescription="@null"
+        android:scaleType="centerInside"
+        android:src="@drawable/power_up"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintWidth_max="200dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

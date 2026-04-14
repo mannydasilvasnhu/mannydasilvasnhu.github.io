@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/rowCard"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="8dp"
+    app:cardUseCompatPadding="false"
+    app:cardElevation="0dp"
+    app:cardBackgroundColor="@color/powerscale_surface"
+    app:strokeColor="@color/powerscale_outline"
+    app:strokeWidth="1dp">
+
+    <!--
+        Row Container
+        Represents a single weight log entry
+        displayed inside the RecyclerView.
+    -->
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/rowRoot"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingVertical="10dp"
+        android:paddingHorizontal="12dp">
+
+        <!--
+            Date Value
+            Displays the date associated with
+            the logged weight entry.
+        -->
+        <TextView
+            android:id="@+id/textDate"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="02/04/2026"
+            android:textAppearance="@style/TextAppearance.PowerScale"
+            android:textColor="@color/powerscale_on_surface"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@id/textWeight"
+            app:layout_constraintWidth_percent="0.40" />
+
+        <!--
+            Weight Value
+            Displays the user's recorded weight
+            for the given date.
+        -->
+        <TextView
+            android:id="@+id/textWeight"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="185.6"
+            android:textAppearance="@style/TextAppearance.PowerScale"
+            android:textColor="@color/powerscale_on_surface"
+            android:gravity="start"
+            android:paddingStart="5.5dp"
+            app:layout_constraintStart_toEndOf="@id/textDate"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@id/buttonDelete"
+            app:layout_constraintWidth_percent="0.30" />
+
+        <!--
+            Delete Button
+            Allows the user to remove a specific
+            weight entry from the log.
+        -->
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/buttonDelete"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:minHeight="48dp"
+            android:text="@string/button_delete"
+            android:textAppearance="@style/TextAppearance.PowerScale"
+            android:textAllCaps="false"
+            android:insetTop="0dp"
+            android:insetBottom="0dp"
+            android:paddingVertical="8dp"
+            android:paddingHorizontal="12dp"
+            android:textColor="@color/white"
+            app:backgroundTint="@color/powerscale_danger"
+            app:layout_constraintStart_toEndOf="@id/textWeight"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintWidth_percent="0.35"
+            app:layout_constraintWidth_max="120dp" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</com.google.android.material.card.MaterialCardView>
