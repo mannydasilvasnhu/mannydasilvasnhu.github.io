@@ -23,7 +23,7 @@ This baseline version is important because it establishes the starting point fro
 
 ## Repository and Download
 
-- [View Original Artifact Repository](/artifacts/MannyDaSilvaWeightTrackingApp/)
+- [View Original Artifact Repository](https://github.com/mannydasilvasnhu/mannydasilvasnhu.github.io/tree/main/artifacts/MannyDaSilvaWeightTrackingApp)
 - [Download Original Artifact ZIP](/artifacts/CS%20499%20Original%20PowerScale%20Artifact%20Manny%20DaSilva.zip)
 
 ---
