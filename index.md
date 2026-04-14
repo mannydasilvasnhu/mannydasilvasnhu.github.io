@@ -4,7 +4,7 @@ title: Manny DaSilva | Computer Science ePortfolio
 ---
 
 <p align="center">
-  <img src="{{ '/images/profile-pic.jpg' | relative_url }}" height="300" width="250">
+  <img src="{{ '/assets/images/profile-pic.jpg' | relative_url }}" height="300" width="250">
 </p>
 
 # About Me
@@ -18,11 +18,5 @@ Beyond my technical skills, I bring strong communication and teamwork abilities 
 Outside of work, my hobbies include bodybuilding, basketball, playing guitar, and working with computer hardware. I value continuous learning and personal growth, both professionally and personally.
 
 If you have any questions related to employment opportunities or project contributions, feel free to contact me through email, phone, or direct message. I am always open to connecting and sharing my knowledge and experience.
-
----
-
-## Professional Self-Assessment
-
-This section provides an overview of my journey through the Computer Science program, highlighting my growth, technical skills, and professional development.
 
 ---
