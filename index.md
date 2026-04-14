@@ -33,4 +33,12 @@ This section provides an overview of my technical growth, professional experienc
 
 This section includes a recorded code review of the original PowerScale application, highlighting key areas for improvement and planned enhancements.
 
-[View Code Review](documents/code-review.md)
+[View Code Review](code-review/code-review.md)
+
+---
+
+## PowerScale Project
+
+This section provides an overview of the PowerScale application and the enhancements developed to improve its design, performance, and functionality.
+
+[View Project Overview](projects/powerscale/overview.md)
