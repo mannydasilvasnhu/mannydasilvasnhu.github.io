@@ -7,20 +7,15 @@ title: PowerScale Application Overview
 
 The primary artifact presented in this ePortfolio is **PowerScale**, a mobile weight tracking application developed in Android Studio using Java, XML, and SQLite. The application allows users to create an account, log in, record daily weight entries, set a goal weight, and track their progress over time.
 
-This artifact was originally developed as part of coursework in mobile application development and has since been enhanced to demonstrate growth across multiple areas of computer science, including software engineering, algorithms and data structures, and database design.
+This artifact was originally developed as part of coursework in mobile application development and was later enhanced to demonstrate growth across multiple areas of computer science, including software engineering, algorithms and data structures, and database design.
 
 ---
 
-## Original Application
+## Original Artifact
 
-The original version of PowerScale provided core functionality for user authentication and weight tracking. Users were able to:
+The original version of PowerScale established the baseline functionality of the application and served as the foundation for all later enhancements. It demonstrates the initial implementation of account creation, authentication, weight logging, and goal tracking.
 
-- Create and manage accounts
-- Log and store daily weight entries
-- Set a goal weight
-- View weight history
-
-While functional, the original application had several limitations, including tightly coupled components, minimal data validation, and limited analytical capabilities.
+[View Original Artifact](original-artifact.md)
 
 ---
 
@@ -41,7 +36,7 @@ The PowerScale application was enhanced across three primary areas:
 - Introduced a Repository layer to separate concerns between UI and data handling
 - Improved maintainability, scalability, and code organization
 
-[View Enhancement](enhancement-1/enhancement-1.md)
+[View Enhancement 1](enhancement-1/enhancement-1.md)
 
 ---
 
@@ -50,7 +45,7 @@ The PowerScale application was enhanced across three primary areas:
 - Added trend detection to provide users with meaningful insights into their progress
 - Improved data processing efficiency using optimized logic
 
-[View Enhancement](enhancement-2/enhancement-2.md)
+[View Enhancement 2](enhancement-2/enhancement-2.md)
 
 ---
 
@@ -59,7 +54,7 @@ The PowerScale application was enhanced across three primary areas:
 - Enforced data integrity and consistency
 - Optimized query performance and database interactions
 
-[View Enhancement](enhancement-3/enhancement-3.md)
+[View Enhancement 3](enhancement-3/enhancement-3.md)
 
 ---
 
