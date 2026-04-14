@@ -26,3 +26,11 @@ If you have any questions related to employment opportunities or project contrib
 This section provides an overview of my technical growth, professional experience, and the skills demonstrated throughout this ePortfolio.
 
 [View Full Self-Assessment](sections/self-assessment.md)
+
+---
+
+## Code Review
+
+This section includes a recorded code review of the original PowerScale application, highlighting key areas for improvement and planned enhancements.
+
+[View Code Review](documents/code-review.md)
