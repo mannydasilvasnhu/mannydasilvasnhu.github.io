@@ -17,7 +17,7 @@ Beyond my technical skills, I bring strong communication and teamwork abilities 
 
 Outside of work, my hobbies include bodybuilding, basketball, playing guitar, and working with computer hardware. I value continuous learning and personal growth, both professionally and personally.
 
-If you have any questions related to employment opportunities or project contributions, feel free to contact me through email, phone, or direct message. I am always open to connecting and sharing my knowledge and experience.
+If you have any questions related to employment opportunities or project contributions, feel free to contact me through email or LinkedIn. I am always open to connecting and sharing my knowledge and experience.
 
 ---
 
