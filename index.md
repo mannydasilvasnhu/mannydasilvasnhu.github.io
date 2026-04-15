@@ -42,3 +42,34 @@ This section includes a recorded code review of the original PowerScale applicat
 This section provides an overview of the PowerScale application and the enhancements developed to improve its design, performance, and functionality.
 
 [View Project Overview](projects/powerscale/overview.md)
+
+---
+
+## Certifications
+
+<p align="center">
+  <a href="https://www.credly.com/badges/3fca880b-b141-499b-a84e-e6b63fd20882">
+    <img src="{{ '/assets/images/securityplus.png' | relative_url }}" width="150">
+  </a>
+</p>
+
+<p align="center">
+  <strong>CompTIA Security+</strong><br>
+  Verified Certification – Click badge to view credential
+</p>
+
+---
+
+## Connect With Me
+
+Feel free to reach out or connect with me professionally:
+
+<p align="center">
+  <a href="mannydasilva2002@gmail.com">
+    <img src="https://img.shields.io/badge/Email-Contact-red?style=for-the-badge&logo=gmail&logoColor=white">
+  </a>
+  
+  <a href="https://www.linkedin.com/in/manny-dasilva/">
+    <img src="https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge&logo=linkedin&logoColor=white">
+  </a>
+</p>
