@@ -26,7 +26,7 @@ If the embedded video does not load, you can access it using the links below:
 
 ## Code Review Summary
 
-The code review evaluates the original PowerScale application, a mobile weight tracking system developed in Android Studio using Java, XML, and SQLite. The review focuses on identifying strengths and areas for improvement across key software engineering principles.
+The code review evaluates the original PowerScale application, a mobile weight-tracking system developed in Android Studio using Java, XML, and SQLite. The review focuses on identifying strengths and areas for improvement across key software engineering principles.
 
 ### Key Areas Reviewed:
 - Application structure and maintainability

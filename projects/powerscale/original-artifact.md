@@ -7,7 +7,7 @@ title: Original Artifact – PowerScale
 
 ## Overview
 
-The original artifact for this project is **PowerScale**, a mobile weight tracking application developed in Android Studio using Java, XML, and SQLite. This application served as the foundation for all three enhancements included in this ePortfolio.
+The original artifact for this project is **PowerScale**, a mobile weight-tracking application developed in Android Studio using Java, XML, and SQLite. This application served as the foundation for all three enhancements included in this ePortfolio.
 
 The original implementation allowed users to create an account, log in, record daily weight entries, set a goal weight, and review their stored data. While the application was functional, it also presented several opportunities for improvement in architecture, algorithmic analysis, and database design.
 
@@ -15,7 +15,7 @@ The original implementation allowed users to create an account, log in, record d
 
 ## Original Artifact Contents
 
-The original artifact demonstrates the baseline version of the PowerScale application prior to enhancement. It includes the original source code, user interface implementation, SQLite database interactions, and application logic used for authentication and weight tracking.
+The original artifact demonstrates the baseline version of the PowerScale application prior to enhancement. It includes the original source code, user interface implementation, SQLite database interactions, and application logic used for authentication and weight-tracking.
 
 This baseline version is important because it establishes the starting point from which the enhanced versions were developed.
 

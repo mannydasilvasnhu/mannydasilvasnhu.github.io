@@ -5,7 +5,7 @@ title: PowerScale Application Overview
 
 # PowerScale Application Overview
 
-The primary artifact presented in this ePortfolio is **PowerScale**, a mobile weight tracking application developed in Android Studio using Java, XML, and SQLite. The application allows users to create an account, log in, record daily weight entries, set a goal weight, and track their progress over time.
+The primary artifact presented in this ePortfolio is **PowerScale**, a mobile weight-tracking application developed in Android Studio using Java, XML, and SQLite. The application allows users to create an account, log in, record daily weight entries, set a goal weight, and track their progress over time.
 
 This artifact was originally developed as part of coursework in the CS-360 Mobile Architecture and Programming course, and was later enhanced to demonstrate growth across multiple areas of computer science, including software engineering, algorithms and data structures, and database design.
 
