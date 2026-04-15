@@ -21,6 +21,17 @@ This baseline version is important because it establishes the starting point fro
 
 ---
 
+## Application Screenshots
+
+The following screenshots show the original user interface of the PowerScale application prior to enhancement, these include the login and home screens.
+
+<p align="center">
+  <img src="{{ '/assets/images/login.png' | relative_url }}" width="250">
+  <img src="{{ '/assets/images/home.png' | relative_url }}" width="250">
+</p>
+
+---
+
 ## Repository and Download
 
 - [View Original Artifact Repository](https://github.com/mannydasilvasnhu/mannydasilvasnhu.github.io/tree/main/artifacts/MannyDaSilvaWeightTrackingApp)
