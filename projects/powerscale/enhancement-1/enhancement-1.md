@@ -15,9 +15,9 @@ This artifact was chosen because it demonstrates core software engineering conce
 
 ## Artifact Links
 
-- [View Enhancement 1 Repository](https://github.com/mannydasilvasnhu/mannydasilvasnhu.github.io/tree/main/projects/powerscale/enhancement-1/PowerScale)
-- [Download Enhanced Artifact](CS%20499%20Enhancement%20One%20PowerScale%20Manny%20DaSilva.zip)
-- [View Enhancement Narrative](CS%20499%20Enhancement%201%20Narrative%20Manny%20DaSilva.docx)
+- <a href="https://github.com/mannydasilvasnhu/mannydasilvasnhu.github.io/tree/main/projects/powerscale/enhancement-1/PowerScale" target="_blank" rel="noopener noreferrer">🔗 View Enhancement 1 Repository</a>
+- [📦 Download Enhanced Artifact](CS%20499%20Enhancement%20One%20PowerScale%20Manny%20DaSilva.zip)
+- [📄 View Enhancement Narrative](CS%20499%20Enhancement%201%20Narrative%20Manny%20DaSilva.docx)
 
 ---
 

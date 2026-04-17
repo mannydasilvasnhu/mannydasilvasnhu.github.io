@@ -19,8 +19,8 @@ This section presents a comprehensive code review of the PowerScale application.
 
 If the embedded video does not load, you can access it using the links below:
 
-- [Watch on YouTube](https://www.youtube.com/watch?v=GPtSEcjFsWo)
-- [View on GitHub (MP4 Download)](https://github.com/mannydasilvasnhu/mannydasilvasnhu.github.io/blob/main/code-review/CS%20499%20Code%20Review%20Manny%20DaSilva.mp4)
+- <a href="https://www.youtube.com/watch?v=GPtSEcjFsWo" target="_blank" rel="noopener noreferrer">🔗 Watch on YouTube</a>
+- <a href="https://github.com/mannydasilvasnhu/mannydasilvasnhu.github.io/blob/main/code-review/CS%20499%20Code%20Review%20Manny%20DaSilva.mp4" target="_blank" rel="noopener noreferrer">🔗 View on GitHub (MP4 Download)</a>
 
 ---
 

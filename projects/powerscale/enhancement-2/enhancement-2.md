@@ -15,9 +15,9 @@ This artifact was selected because it provides a strong foundation for demonstra
 
 ## Artifact Links
 
-- [View Enhancement 2 Repository](https://github.com/mannydasilvasnhu/mannydasilvasnhu.github.io/tree/main/projects/powerscale/enhancement-2/PowerScale)
-- [Download Enhanced Artifact](CS%20499%20Enhancement%20Two%20PowerScale%20Manny%20DaSilva.zip)
-- [View Enhancement Narrative](CS%20499%20Enhancement%202%20Narrative%20Manny%20DaSilva.docx)
+- <a href="https://github.com/mannydasilvasnhu/mannydasilvasnhu.github.io/tree/main/projects/powerscale/enhancement-2/PowerScale" target="_blank" rel="noopener noreferrer">🔗 View Enhancement 2 Repository</a>
+- [📦 Download Enhanced Artifact](CS%20499%20Enhancement%20Two%20PowerScale%20Manny%20DaSilva.zip)
+- [📄 View Enhancement Narrative](CS%20499%20Enhancement%202%20Narrative%20Manny%20DaSilva.docx)
 
 ---
 

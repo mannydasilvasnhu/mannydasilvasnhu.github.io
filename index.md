@@ -48,7 +48,7 @@ This section provides an overview of the PowerScale application and the enhancem
 ## Certifications
 
 <p align="center">
-  <a href="https://www.credly.com/badges/3fca880b-b141-499b-a84e-e6b63fd20882">
+  <a href="https://www.credly.com/badges/3fca880b-b141-499b-a84e-e6b63fd20882" target="_blank" rel="noopener noreferrer">
     <img src="{{ '/assets/images/securityplus.png' | relative_url }}" width="150">
   </a>
 </p>
@@ -65,11 +65,11 @@ This section provides an overview of the PowerScale application and the enhancem
 Feel free to reach out or connect with me professionally:
 
 <p align="center">
-  <a href="mailto:mannydasilva2002@gmail.com">
+  <a href="mailto:mannydasilva2002@gmail.com" target="_blank" rel="noopener noreferrer">
     <img src="https://img.shields.io/badge/Email-Contact-red?style=for-the-badge&logo=gmail&logoColor=white">
   </a>
   
-  <a href="https://www.linkedin.com/in/manny-dasilva/">
+  <a href="https://www.linkedin.com/in/manny-dasilva/" target="_blank" rel="noopener noreferrer">
     <img src="https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge&logo=linkedin&logoColor=white">
   </a>
 </p>

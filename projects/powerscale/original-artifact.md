@@ -41,8 +41,8 @@ The following figures show parts the original user interface of the PowerScale a
 
 ## Repository and Download
 
-- [View Original Artifact Repository](https://github.com/mannydasilvasnhu/mannydasilvasnhu.github.io/tree/main/artifacts/MannyDaSilvaWeightTrackingApp)
-- [Download Original Artifact ZIP](../../artifacts/CS%20499%20Original%20PowerScale%20Artifact%20Manny%20DaSilva.zip)
+- <a href="https://github.com/mannydasilvasnhu/mannydasilvasnhu.github.io/tree/main/artifacts/MannyDaSilvaWeightTrackingApp" target="_blank" rel="noopener noreferrer">🔗 View Original Artifact Repository</a>
+- [📦 Download Original Artifact ZIP](../../artifacts/CS%20499%20Original%20PowerScale%20Artifact%20Manny%20DaSilva.zip)
 
 ---
 

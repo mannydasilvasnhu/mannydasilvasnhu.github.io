@@ -24,3 +24,13 @@ The artifacts included in this ePortfolio demonstrate my growth across these cor
 The code review included in this portfolio highlights my ability to analyze existing systems, identify areas for improvement, and plan meaningful enhancements. This reflects skills I use regularly in my professional role, including evaluating code quality, improving system design, and communicating technical decisions effectively.
 
 Overall, this ePortfolio represents my progression from a student learning foundational concepts to an experienced software engineer capable of designing, building, and improving complex systems. The combination of academic coursework, hands-on development, and professional experience has prepared me to contribute effectively in a production environment and continue growing within the field. I am confident in my ability to apply these skills to real-world challenges and deliver secure, scalable, and high-quality software solutions.
+
+---
+
+## Full Submission Document
+
+A complete version of my professional self-assessment is available below:
+
+- [📦 Download Professional Self-Assessment](CS%20499%20Professional%20Self-Assessment%20Manny%20DaSilva.docx)
+
+---

@@ -15,9 +15,9 @@ This artifact was selected because it relies heavily on a local SQLite database 
 
 ## Artifact Links
 
-- [View Enhancement 3 Repository](https://github.com/mannydasilvasnhu/mannydasilvasnhu.github.io/tree/main/projects/powerscale/enhancement-3/PowerScale)
-- [Download Enhanced Artifact](CS%20499%20Enhancement%20Three%20PowerScale%20Manny%20DaSilva.zip)
-- [View Enhancement Narrative](CS%20499%20Enhancement%203%20Narrative%20Manny%20DaSilva.docx)
+- <a href="https://github.com/mannydasilvasnhu/mannydasilvasnhu.github.io/tree/main/projects/powerscale/enhancement-3/PowerScale" target="_blank" rel="noopener noreferrer">🔗 View Enhancement 3 Repository</a>
+- [📦 Download Enhanced Artifact](CS%20499%20Enhancement%20Three%20PowerScale%20Manny%20DaSilva.zip)
+- [📄 View Enhancement Narrative](CS%20499%20Enhancement%203%20Narrative%20Manny%20DaSilva.docx)
 
 ---
 
